@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diya Das | MCA Portfolio</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Personal portfolio of Diya Das, MCA student and aspiring full stack developer. Showcasing projects, skills, and achievements." />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icon Library (for social & UI icons) -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- =============== SCROLL TO TOP BUTTON =============== -->
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+    <i class="bx bx-chevron-up"></i>
+  </button>
+
+  <!-- ================= HEADER / NAVBAR ================= -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-mark">D</span>
+        <span class="logo-text">Diya&nbsp;Das</span>
+      </div>
+
+      <nav class="nav" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link nav-link-button">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO / HOME ================= -->
+    <section class="section hero" id="home">
+      <div class="hero-bg-accent"></div>
+      <div class="container hero-container reveal">
+        <div class="hero-left">
+          <h1 class="hero-title">Hi, I’m <span>Diya&nbsp;Das</span></h1>
+          <p class="hero-text">
+            I design and build modern, responsive web applications with a focus on clean UI, 
+            scalability, and a great user experience. I enjoy translating ideas into real, working products.
+          </p>
+
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary-btn">
+              View Projects
+              <i class="bx bx-right-arrow-alt"></i>
+            </a>
+            <a href="#contact" class="btn ghost-btn">
+              Let’s Connect
+            </a>
+          </div>
+
+          <div class="hero-social">
+            <span>Find me on</span>
+            <div class="hero-social-links">
+              <a href="https://github.com/ddiya3790-svg" target="_blank" rel="noopener">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/diya-das-547345263/" target="_blank" rel="noopener">
+                <i class="bx bxl-linkedin"></i>
+              </a>
+              <a href="https://leetcode.com/u/Diya_Das11/" target="_blank" rel="noopener">
+                <i class="bx bxl-leetcode"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-card">
+            <div class="hero-avatar-wrap">
+              <!-- Replace with your own image -->
+              <img src="diyaa.jpg" alt="Diya Das" class="hero-avatar" />
+              <div class="hero-avatar-glow"></div>
+            </div>
+            <div class="hero-card-body">
+              <p class="hero-role">MCA Student • Full Stack Learner</p>
+              <p class="hero-location"><i class="bx bx-map"></i> India</p>
+              <p class="hero-availability">
+                <span class="dot"></span> Open to Internship & Entry-level Roles
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container reveal">
+        <div class="section-header">
+          <h2>About Me</h2>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-main">
+            <p>
+              I am an MCA student with a strong interest in full stack development, databases, and
+              cloud-driven applications. I enjoy solving problems, understanding how systems work end-to-end,
+              and building interfaces that feel simple and intuitive.
+            </p>
+            <p>
+              My focus is on writing clean, maintainable code and following best practices in software
+              development. I am actively improving my skills in data structures, algorithms, system design,
+              and modern web frameworks to prepare myself for industry-level projects.
+            </p>
+          </div>
+
+          <div class="about-side">
+            <div class="info-list">
+              <div class="info-row">
+                <span>Full Name</span>
+                <strong>Diya Das</strong>
+              </div>
+              <div class="info-row">
+                <span>Education</span>
+                <strong>MCA (Pursuing)</strong>
+              </div>
+              <div class="info-row">
+                <span>Interests</span>
+                <strong>Web Dev, DBMS, Cloud</strong>
+              </div>
+              <div class="info-row">
+                <span>Location</span>
+                <strong>India</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <h3><i class="bx bx-bulb"></i> What I Enjoy</h3>
+            <ul>
+              <li>Translating requirements into working web applications.</li>
+              <li>Designing intuitive and consistent user interfaces.</li>
+              <li>Learning new tools and frameworks in the JavaScript ecosystem.</li>
+            </ul>
+          </div>
+          <div class="about-card">
+            <h3><i class="bx bx-target-lock"></i> Career Objective</h3>
+            <p>
+              To start my career as a software developer, contribute to impactful projects,
+              and grow into a full stack engineer capable of owning complete product features.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3><i class="bx bx-user-voice"></i> Strengths</h3>
+            <ul>
+              <li>Strong fundamentals in OOP, DBMS, and DSA.</li>
+              <li>Quick learner with a growth mindset.</li>
+              <li>Good communication and collaboration in teams.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section section-alt" id="skills">
+      <div class="container reveal">
+        <div class="section-header">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skills-category">
+            <h3>Programming Languages</h3>
+            <div class="skill-tags">
+              <span class="tag">C</span>
+              <span class="tag">C++</span>
+              <span class="tag">Java</span>
+              <span class="tag">Python</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3>Web Technologies</h3>
+            <div class="skill-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">Responsive Design</span>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3>Frameworks & Libraries</h3>
+            <div class="skill-tags">
+              <span class="tag">React (Basics)</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Express.js</span>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3>Databases & Tools</h3>
+            <div class="skill-tags">
+              <span class="tag">MySQL</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">Git & GitHub</span>
+              <span class="tag">Postman</span>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3>Soft Skills</h3>
+            <div class="skill-tags">
+              <span class="tag">Problem Solving</span>
+              <span class="tag">Team Collaboration</span>
+              <span class="tag">Time Management</span>
+              <span class="tag">Presentation Skills</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section" id="projects">
+      <div class="container reveal">
+        <div class="section-header">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-thumb">
+            </div>
+            <div class="project-body">
+              <div class="project-header-row">
+                <h3>Attendance Tracker System</h3>
+                <span class="project-label">Academic</span>
+              </div>
+              <p>
+               This project is a Command-Line Attendance Tracker developed in Python to simplify the process of recording and managing student attendance. It demonstrates the use of Python fundamentals such as input/output handling, loops, conditional statements, dictionaries, string formatting, and file operations.
+              </p>
+              <p class="project-tech">Tech Stack: Python</p>
+              <div class="project-links">
+                <a href="https://github.com/ddiya3790-svg/Attendance_tracker" target="_blank" rel="noopener">
+                  <i class="bx bxl-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-thumb">
+            </div>
+            <div class="project-body">
+              <div class="project-header-row">
+                <h3>Butterfly-species-classification</h3>
+                <span class="project-label">Mini Project</span>
+              </div>
+              <p>
+                A deep learning project using a YOLO-based model to accurately detect and classify butterfly species from images. Designed to support research, conservation, and education by providing fast and reliable automated species identification.
+              </p>
+              <p class="project-tech">Tech Stack: python,open cv,pandas,keras,matplotlib</p>
+              <div class="project-links">
+                <a href="https://github.com/ddiya3790-svg/Butterfly-species-classification" target="_blank" rel="noopener">
+                  <i class="bx bxl-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-thumb">
+            </div>
+            <div class="project-body">
+              <div class="project-header-row">
+                <h3>Personal Portfolio Website</h3>
+                <span class="project-label">Self</span>
+              </div>
+              <p>
+                A responsive personal portfolio site (this one) created to showcase my skills, projects,
+                education, and contact details.
+              </p>
+              <p class="project-tech">Tech Stack: HTML, CSS, JavaScript</p>
+              <div class="project-links">
+                <a href="https://github.com/your-github/portfolio" target="_blank" rel="noopener">
+                  <i class="bx bxl-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-thumb">
+            </div>
+            <div class="project-body">
+              <div class="project-header-row">
+                <h3>Library_System</h3>
+                <span class="project-label">Practice</span>
+              </div>
+              <p>
+                A library system is a tool used to organize, manage, and track books and other materials in a library.
+              </p>
+              <p class="project-tech">Tech Stack: python,json</p>
+              <div class="project-links">
+                <a href="https://github.com/ddiya3790-svg/Library_System" target="_blank" rel="noopener">
+                  <i class="bx bxl-github"></i> Code
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section class="section section-alt" id="education">
+      <div class="container reveal">
+        <div class="section-header">
+          <h2>Education</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Master of Computer Applications</h3>
+              <span class="timeline-meta">K.R.Mangalan University| 2025-2027</span>
+              <p>
+                Relevant Coursework: Data Structures & Algorithms, DBMS, Web Technologies, Operating Systems,
+                Software Engineering, Computer Networks.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Bachelor of Computer Applications</h3>
+              <span class="timeline-meta">Assam Don Bosco University| 2022-2025</span>
+              <p>
+                Built strong fundamentals in programming concepts, object-oriented design, and foundational
+                computer science subjects.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Certifications</h3>
+              <span class="timeline-meta">Online Platforms</span>
+              <p>
+                • Java Programming<br />
+                • Web Development Basics<br />
+                • SQL & Database Management
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section class="section" id="experience">
+      <div class="container reveal">
+        <div class="section-header">
+          <h2>Experience & Roles</h2>
+        </div>
+
+        <div class="experience-grid">
+          <article class="experience-card">
+            <div class="experience-heading">
+              <h3>Intership on Machine learning,Artificial Intelligence</h3>
+              <span class="experience-type">Internship</span>
+            </div>
+            <span class="timeline-meta">Froyo Technologies |Jun 2024-July 2024</span>
+            <ul>
+              <li>Basic understanding of machine learning algorithms (e.g., linear regression, decision trees, clustering).</li>
+              <li>Proficiency in Python and ML libraries such as NumPy, Pandas, Scikit-learn, or TensorFlow.</li>
+              <li>Ability to preprocess and analyze data through cleaning, normalization, and visualization.</li>
+            </ul>
+          </article>
+
+          <article class="experience-card">
+            <div class="experience-heading">
+              <h3>Academic Project Lead</h3>
+              <span class="experience-type">Project Role</span>
+            </div>
+            <span class="timeline-meta">MCA Mini Project | 2024</span>
+            <ul>
+              <li>Led a 3-member team to develop a MERN-based web application.</li>
+              <li>Handled project planning, task distribution, and integration.</li>
+              <li>Prepared documentation and presented the project to the faculty panel.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= RESUME ================= -->
+    <section class="section section-alt" id="resume">
+      <div class="container reveal">
+        <div class="section-header">
+          <h2>Resume</h2>
+        </div>
+
+        <div class="resume-wrapper">
+          <p>
+            My resume summarizes my education, technical skills, academic projects, and experience. 
+            You can view or download it using the button below.
+          </p>
+          <!-- Replace href with your actual resume link -->
+          <a href="https://drive.google.com/file/d/13NiFXGuWXruB1pLK6DRtBKr2NrkrRuqO/view?usp=sharing" target="_blank" rel="noopener" class="btn primary-btn">
+            <i class="bx bx-file"></i> View Resume (PDF)
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section" id="contact">
+      <div class="container reveal">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Feel free to reach out for opportunities, collaborations, or questions.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Contact Details</h3>
+            <ul>
+              <li>
+                <span><i class="bx bx-envelope"></i> Email</span>
+                <a href="ddiya3790@gmail.com">ddiya3790@gmail.com</a>
+              </li>
+              <li>
+                <span><i class="bx bx-phone"></i> Phone</span>
+                <a href="tel:+919876543210">+91-8787471091</a>
+              </li>
+              <li>
+                <span><i class="bx bxl-github"></i> GitHub</span>
+                <a href="https://github.com/ddiya3790-svg" target="_blank" rel="noopener">
+                  github.com/your-github
+                </a>
+              </li>
+              <li>
+                <span><i class="bx bxl-linkedin-square"></i> LinkedIn</span>
+                <a href="https://www.linkedin.com/in/diya-das-547345263/" target="_blank" rel="noopener">
+                  linkedin.com/in/your-linkedin
+                </a>
+              </li>
+              <li>
+                <span><i class="bx bx-code-curly"></i> LeetCode</span>
+                <a href="https://leetcode.com/u/Diya_Das11/" target="_blank" rel="noopener">leetcode.com/your-id</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <h3>Send a Message</h3>
+            <!-- Replace YOUR_FORM_ID with real Formspree ID -->
+            <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Name<span>*</span></label>
+                  <input type="text" id="name" name="name" required placeholder="Your Name" />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email<span>*</span></label>
+                  <input type="email" id="email" name="email" required placeholder="you@example.com" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject<span>*</span></label>
+                <input type="text" id="subject" name="subject" required placeholder="Subject of your message" />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message<span>*</span></label>
+                <textarea id="message" name="message" rows="4" required placeholder="Write your message here..."></textarea>
+              </div>
+
+              <button type="submit" class="btn primary-btn full-width">
+                Send Message
+              </button>
+              <p class="form-status" id="formStatus"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>© <span id="year"></span> Diya Das. All rights reserved.</p>
+      <p class="footer-small">
+        Designed &amp; built with HTML, CSS &amp; JavaScript.
+      </p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
